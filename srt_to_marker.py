@@ -73,8 +73,7 @@ def subtime_to_string(subtime: SubRipTime):
     )
 
 def main():
-    parser = argparse.ArgumentParser(description="Convert SRT subtitle file to Adobe Audition marker CSV file.\n" \
-                                     "Usage: python AuditionSubtitleConverter.py <filename>")
+    parser = argparse.ArgumentParser(description=f"Convert SRT subtitle file to Adobe Audition marker CSV file.")
     parser.add_argument("filename", nargs="?", help="Input SRT subtitle file")
     args = parser.parse_args()
 
