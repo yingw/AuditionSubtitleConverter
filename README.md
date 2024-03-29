@@ -35,6 +35,12 @@ python srt_to_marker.py <filename.srt>
 ```
 
 Replace `<filename>` with the path to your SRT subtitle file.
+This will generate a CSV file with the same name as the input file but with a `.csv` extension.
 
 TODO:
-[ ] Convert csv to srt reversed.
+
+- [ ] Convert csv to srt reversed.
+
+## Author
+
+[Yingw](https://github.com/yingw)
